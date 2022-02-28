@@ -13,7 +13,7 @@ services:
     networks:
       - blog.eana.ro-network
   blog.eana.ro-mysql:
-    image: mariadb:10.7.1
+    image: mariadb:10.8.2
     container_name: blog.eana.ro-mysql
     restart: always
     volumes:
